@@ -36,8 +36,8 @@ const Form = ({addContacts}) => {
   const formSubmitHandle = e => {
     e.preventDefault();
     const add = addContacts({name, number});
-    setName('')
-    setNumber('')
+    setName('');
+    setNumber('');
   };
 
     return (
